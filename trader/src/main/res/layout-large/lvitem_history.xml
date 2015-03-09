@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/FaintGray"
+    tools:ignore="Overdraw"
+    android:weightSum="100">
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/tradehistory_position"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/buysell"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="@color/LightGrey"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tradehistory_date"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/date"
+        android:gravity="center"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="@color/LightGrey"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="50"
+        android:id="@+id/tradehistory_amount"
+        android:text="@string/amount"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="@color/LightGrey"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="50"
+        android:id="@+id/tradehistory_price"
+        android:text="@string/price"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+</LinearLayout>

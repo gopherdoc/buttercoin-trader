@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <TextView android:id="@+id/about_thankyou"
+            android:text="@string/thankyou"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center"/>
+        <TextView android:id="@+id/about_donation"
+            android:text="@string/donation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center"/>
+        <ImageView android:id="@+id/btcqr"
+            android:layout_width="fill_parent"
+            android:layout_weight="50"
+            android:src="@drawable/qrbtc"
+            android:layout_height="0dp"
+            android:contentDescription="@string/QRcodeimg"/>
+        <TextView android:id="@+id/strbtcqr"
+            android:text="@string/mybtcaddress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center"/>
+        <ImageView android:id="@+id/qrltc"
+            android:layout_width="fill_parent"
+            android:layout_weight="50"
+            android:src="@drawable/qrltc"
+            android:layout_height="0dp"
+            android:contentDescription="@string/QRcodeimg"/>
+        <TextView android:id="@+id/strltcqr"
+            android:text="@string/myltcaddress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center"/>
+        <TextView android:id="@+id/myname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/createdby"
+            android:gravity="center_horizontal"/>
+        <TextView android:id="@+id/version"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/versionnum"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+</merge>

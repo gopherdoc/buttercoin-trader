@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="gopherdoc.buttercoin.trader.MainActivity" >
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/label_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+    <item android:id="@+id/action_about"
+        android:title="@string/about"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource"/>
+</menu>

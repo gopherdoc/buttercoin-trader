@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:id="@+id/splash_btnsettings"
+        android:textColor="@color/DimGray"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="@string/action_settings"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:background="@drawable/pairback"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:id="@+id/splash_btnsignup"
+        android:textColor="@color/DimGray"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="@string/signup"
+        android:gravity="center"
+        android:clickable="true"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/pairback"/>
+
+</LinearLayout>

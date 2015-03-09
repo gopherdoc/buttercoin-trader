@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Buttercoin BTC Trader</string>
+    <string name="versionnum">Version 1.0</string>
+    <string name="title_activity_about">About</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_settings">Settings</string>
+    <string name="label_withdraw" tools:ignore="UnusedResources">Withdraw</string>
+    <string name="label_deposit" tools:ignore="UnusedResources">Deposit</string>
+    <string name="donation">If you find this application useful, please feel free to donate using the links below.</string>
+    <string name="mybtcaddress">BTC: 1CLk9vZNAWW3Q54opZcrwD3jBsmBAEiue4</string>
+    <string name="myltcaddress">LTC: Ldt4cKBUSS4QoHBZvzwYqUENWM4f59B2nq</string>
+    <string name="thankyou">Thank you for using Buttercoin BTC Trader</string>
+    <string name="preference_file_key">myprefs</string>
+    <string name="amount">Amount</string>
+    <string name="price">Price</string>
+    <string name="basebal">Base Balance</string>
+    <string name="quotebal">Quote Balance</string>
+    <string name="sell">Sell</string>
+    <string name="buy">Buy</string>
+    <string name="prefapikey">prefApiKey</string>
+    <string name="prefapisecret">prefApiSecret</string>
+    <string name="prefbtcaddress">prefbtcaddress</string>
+    <string name="splash_reminder">Thank you for using ButterCoin BTC Trader!\n\n
+    Security reminder:</string>
+    <string name="splash_helptext">1) Please disable withdrawals for keys used with this app.\n2) PIN/Password is required to secure store your credentials</string>
+    <string name="QR">QR</string>
+    <string name="createdby">Created by Gopherdoc</string>
+    <string name="signup">Sign up</string>
+    <string name="loadingtrader">Loading Trader</string>
+    <string name="cancel">Cancel</string>
+    <string name="balance">Balance</string>
+    <string name="deposit">Deposit</string>
+    <string name="buysell">Buy/Sell</string>
+    <string name="date">Date</string>
+    <string name="quoteamount">Quote amount</string>
+    <string name="position">Position</string>
+    <string name="about">About</string>
+    <string name="QRcodeimg">QRCodeImage</string>
+    <string name="logo">Logo</string>
+    <string name="coinimg">Coin Image</string>
+    <string-array name="nav_drawer_items">
+        <item>Trade</item>
+        <item>Deposit</item>
+        <item>Trade History</item>
+        <item>Settings</item>
+        <item>About</item>
+    </string-array>
+
+</resources>

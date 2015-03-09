@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/FaintGray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/orderbookitem_price"
+                android:text="@string/price"
+                android:gravity="top"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@color/DarkGray"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:id="@+id/orderbookitem_amount"
+                    android:text="@string/amount"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:id="@+id/orderbookitem_quoteamount"
+                    android:text="@string/quoteamount"
+                    android:gravity="right"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/DarkGray"/>
+    </LinearLayout>
+</merge>

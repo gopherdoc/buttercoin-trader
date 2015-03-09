@@ -1,0 +1,46 @@
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <TextView
+            android:text="Deposit BTC"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="35sp" />
+        <TextView
+            android:text="Current balance"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center"/>
+        <TextView android:id="@+id/deposit_curr_balance"
+            android:text="Current balance"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center"/>
+        <ImageView android:id="@+id/img_deposit_qr"
+            android:layout_width="fill_parent"
+            android:layout_weight="100"
+            android:src="@drawable/qrbtc"
+            android:layout_height="0dp"
+            android:contentDescription="@string/QRcodeimg"/>
+        <TextView android:id="@+id/str_depositaddress"
+            android:text=""
+            android:textSize="22sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center"/>
+    </LinearLayout>
+</FrameLayout>
